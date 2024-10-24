@@ -1,0 +1,11 @@
+package manejoHilos;
+
+public class Hilo_02_02_Runnable implements Runnable{
+
+	@Override
+	public void run() {
+
+		
+	}
+
+}

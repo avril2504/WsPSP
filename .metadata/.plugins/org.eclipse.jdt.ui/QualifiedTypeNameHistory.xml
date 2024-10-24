@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="manejoHilos.Hilo_01_Thread_Main"/>
+    <fullyQualifiedTypeName name="manejoHilos.Hilo_01_Thread"/>
+    <fullyQualifiedTypeName name="manejoHilos.Hilo_02_Runnable"/>
+    <fullyQualifiedTypeName name="manejoHilos.Hilo_02_Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="manejoHilos.Hilo_02_02_Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>
