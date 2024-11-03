@@ -8,5 +8,13 @@
     <fullyQualifiedTypeName name="manejoHilos.Hilo_02_Thread"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="manejoHilos.Hilo_02_02_Runnable"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="colaCorreo.Correo"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="colaCorreo.ProducirCorreo"/>
+    <fullyQualifiedTypeName name="colaCorreo.ConsumirCorreo"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
 </qualifiedTypeNameHistroy>
