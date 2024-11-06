@@ -15,7 +15,7 @@ public class Buffer {
 	
 	public synchronized void addCorreo(Correo correo) throws InterruptedException {
 		if(correo.getDestinatario().equalsIgnoreCase("pikachu@gmail.com")) {
-			System.out.println("Destinatario prohibido");
+			System.out.println(Thread.currentThread().getName() + "Destinatario prohibido");
 			return;
 		}
 		
@@ -24,7 +24,7 @@ public class Buffer {
 		}
 		
 		listaCorreo.add(correo);
-		System.out.println("Se agrego el correo con id: " + correo.getId());
+		System.out.println(Thread.currentThread().getName() + " agrego el correo con id: " + correo.getId());
 		notify();
 	}
 	
@@ -34,7 +34,7 @@ public class Buffer {
 		}
 		
 		Correo correo = listaCorreo.poll();
-		System.out.println("Se envio el correo: " + correo);
+		System.out.println(Thread.currentThread().getName() + " envio el correo: " + correo);
 		notify();
 		return correo;
 	}

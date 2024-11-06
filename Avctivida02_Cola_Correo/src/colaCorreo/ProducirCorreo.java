@@ -8,9 +8,10 @@ public class ProducirCorreo extends Thread{
 	private String pAsunto;
 	private String pCuerpoMensaje;
 
-	public ProducirCorreo(Buffer buffer, String pDestinatario, String pRemitente, String pAsunto,
+
+	public ProducirCorreo(String name,Buffer buffer, String pDestinatario, String pRemitente, String pAsunto,
 			String pCuerpoMensaje) {
-		super();
+		super(name);
 		this.buffer = buffer;
 		this.pDestinatario = pDestinatario;
 		this.pRemitente = pRemitente;
