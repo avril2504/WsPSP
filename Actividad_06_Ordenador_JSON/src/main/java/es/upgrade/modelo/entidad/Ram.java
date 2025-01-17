@@ -14,4 +14,15 @@ public class Ram {
 	private String capacidad;
 	private int hz;
 	private int cl;
+	
+	@Override
+    public String toString() {
+        return "Ram{" +
+                "marca='" + marca + '\'' +
+                ", tipo='" + tipo + '\'' +
+                ", capacidad='" + capacidad + '\'' +
+                ", hz=" + hz +
+                ", cl=" + cl +
+                '}';
+    }
 }
